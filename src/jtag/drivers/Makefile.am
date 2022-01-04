@@ -189,6 +189,9 @@ endif
 if PICOPROBE
 DRIVERFILES += %D%/picoprobe.c
 endif
+if NANOPROBE
+DRIVERFILES += %D%/nanoprobe.c
+endif
 if XDS110
 DRIVERFILES += %D%/xds110.c
 endif
